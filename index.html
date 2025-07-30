@@ -1,53 +1,208 @@
 <!DOCTYPE html>
-<html>
-    <head>
-     <title> Borsha's Website </title>
-     <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-    <section class="container">  
-        <div class="half-width">  <h1> Welcome to <span class="name"> Borsha's </span> World </h1>
-        <h3> Building Climber and Train Stopper </h3>
-        <p> You might see me jumping, climbing buildings, and stopping trains. But nobody pays me a dime for that work. That's why I am learning and mastering web development. I will not stop until I become the Web Development Hero. </p>
-        <a class="primary-btn"  href="https://www.linkedin.com/in/jhankar/"> Hire Me </a>
-        </div>
-        <div class="half-width"> 
-        <img class="side-img" src="images/profile.jpg">  </img>
-       
-         </div>
-         </section>
-         <section class="container"> 
-         <div class="half-width">
-          <img class="side-img" src="images/w.jpg">  </img>
-      </div>
-         <div class="half-width">
-              <h2> BIG DREAM </h2>
-              <h4> Become a web developer </h4>
-              <p> I already learned the basic HTML and CSS. I can build any simple website. I can even teach my grandma how to make a simple website. My goal is to build 3 websites and learn advanced topics. </p>
-              <a class="primary-btn" href="#"> Email: peter.parker@gmail.com </a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Our Ji - Sustainable Living Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Guide Our Ji</h2>
+                <span class="tagline">Sustainable Living Guide</span>
             </div>
-         
-          </section>
-   <section class="container experiences">
-    <h2> Experience </h2>
-    <div class="experience-item">
-     <h3> Full Stack Web Developer </h3>
-     <p class="name"> 2020 - Present | Pro Level Developer </p>
-     <p> I am the master of HTML, CSS and JavaScript. I know everything needed to make a website function efficiently. I didn't stop with the web. I went beyond with the most popular JavaScript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution. </p>
-</div>
-<div class="experience-item">
-      <h3> Baby Web Developer </h3>
-      <p class="name"> 2019 - 202 | Programming Hero (Remote) </p>
-      <p> They didn't offer me a job. But I made myself as a remote web developer. I made their website and showed it to them. They liked it. And uploaded the content. It was fun working at Programming Hero. </p>
-</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Living Sustainably for a Better Tomorrow</h1>
+                <p class="hero-subtitle">Discover practical ways to reduce your environmental impact and create a more sustainable lifestyle. We believe in helping people, guiding people, and teaching people through knowledge.</p>
+                <div class="hero-buttons">
+                    <a href="#blog" class="btn btn-primary">Start Learning</a>
+                    <a href="#about" class="btn btn-secondary">About Our Mission</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Eco-Friendly Living</h3>
+                    <p>Learn sustainable practices</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Featured Posts Section -->
+    <section id="blog" class="featured-posts">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest Articles</h2>
+                <p>Discover practical tips and insights for sustainable living</p>
+            </div>
+            <div class="posts-grid">
+                <article class="post-card">
+                    <div class="post-image">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-category">Sustainable Living</div>
+                        <h3>10 Simple Ways to Reduce Your Carbon Footprint</h3>
+                        <p>Discover easy and practical steps you can take today to make a positive impact on the environment...</p>
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> March 15, 2024</span>
+                            <span><i class="fas fa-clock"></i> 5 min read</span>
+                        </div>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
 
+                <article class="post-card">
+                    <div class="post-image">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-category">Zero Waste</div>
+                        <h3>Beginner's Guide to Zero Waste Living</h3>
+                        <p>Start your journey towards a zero-waste lifestyle with these essential tips and tricks...</p>
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> March 12, 2024</span>
+                            <span><i class="fas fa-clock"></i> 8 min read</span>
+                        </div>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
 
-</section>
-          
-    </body>
-    <footer> 
-         <p> © Peter Parker 2020, a Programming Hero initiative. </p>
-     </footer>
+                <article class="post-card">
+                    <div class="post-image">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-category">Renewable Energy</div>
+                        <h3>Understanding Solar Energy: Benefits and Implementation</h3>
+                        <p>Learn about the advantages of solar energy and how you can incorporate it into your home...</p>
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> March 10, 2024</span>
+                            <span><i class="fas fa-clock"></i> 12 min read</span>
+                        </div>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Our Mission</h2>
+                    <p>We believe the world is all about helping. Our mission is to guide people towards sustainable, eco-friendly living through education and practical advice.</p>
+                    <p>Every article we publish is designed to help you understand the impact of your choices on the Earth and provide actionable steps to create positive change.</p>
+                    <div class="mission-stats">
+                        <div class="stat">
+                            <h3>100+</h3>
+                            <p>Articles Published</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50K+</h3>
+                            <p>Readers Helped</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Eco-Friendly Focus</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-card">
+                        <i class="fas fa-globe-americas"></i>
+                        <h3>Making a Difference</h3>
+                        <p>Together, we can create a sustainable future</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Get the latest sustainable living tips and environmental insights delivered to your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Guide Our Ji</h3>
+                    <p>Your trusted source for sustainable living guidance and environmental education.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Sustainable Living</a></li>
+                        <li><a href="#">Zero Waste</a></li>
+                        <li><a href="#">Renewable Energy</a></li>
+                        <li><a href="#">Eco-Friendly Products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> hello@guide.ourji.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Earth, Solar System</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Guide Our Ji. All rights reserved. | Domain: guide.ourji.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
